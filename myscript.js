@@ -14,7 +14,9 @@ window.addEventListener('load', ()=>{
   "A golden egg of opportunity falls into your lap this month.","You are the one never forget that",
   "A smile is your personal welcome mat.","Consistency is the ingredient to success",
   "All your hard work will soon pay off.","Just one small positive thought in the morning can change your whole day", "it is never too late to be what you might have been",
-   "Love your family, work super hard, live your passion", 
+   "Love your family, work super hard, live your passion","One small kind action can make someones day", 
+   "if you learn something new every day, you can teach something new every day",
+   "New month, new goals, new mindset", 
 ]
 
 let button = document.getElementById('fortuneButton');
@@ -23,6 +25,8 @@ let fortune = document.getElementById('fortune');
 function fortuneSelector(){
   let randomFortune = Math.floor(Math.random() * fortunes.length);
   return fortunes[randomFortune];
+
+  
 }
 
 function showFortune(){
