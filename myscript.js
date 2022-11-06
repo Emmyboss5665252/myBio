@@ -1,6 +1,6 @@
 window.addEventListener('load', ()=>{
 
-    const skills = ["HTML5", "JavaScript", "CSS 3", "Python", "FastAPI", "SQL","Vue 3"]
+    const skills = ["HTML5", "JavaScript", "CSS 3", "Python", "FastAPI", "SQL","Vue 3", "Full-stack Engineer", "jQuery","PHP", "Java", "C#", "Database"]
     let ul = document.querySelector("#list")
     skills.forEach(skills => {
         // function code
@@ -47,10 +47,19 @@ window.addEventListener('load', ()=>{
    "The pessimist complains about the sun; the opmimist get a tan; the futurist makes electricity. Which do you choose to do ?",
    "You can conquer always any fear if you will only make up your mind to do so. For fear donsn't exist anywhere else except in the mind.",
    "Only in the still waters, dose one find undistored images and only a mind that is calm, can fathom the complexities of life",
-   "We can't make people better by trying to eliminate their weaknesses, but we can help the perform better by building on their strenght",
+   "We can't make people better by trying to eliminate their weaknesses, but we can help them perform better by building on their strenght",
    "The World is not a parking place; it's a racrtrack, keep moving. No matter when and where you start, you can reach your goal and make a new record!",
    "Luck has a peculiar habit of favoring those who don't depend on it. so just believe in yourself and find a way to your dreams.",
    "The weak can never forgive, Forgiveness is the attribute of the strong",
+   "Love is an act of endless forgiveness, a tender look which become a habit",
+   "The secret of forgiving everything is to understand nothing.",
+   "Life is not just about what you can do as a person, it's about what others learn from your doings which has positive impact on them",
+   "Our greatest glory is not in never failing but in rising up every time we fail",
+   "No matter how hard past, you can always begin again",
+   "People become remarkable when they start thinking that they can do things. Sel realisation is the first secret of success.",
+   "Remember, happiness donsn't depend upon who you are or what you have, it depends splely upon what you think.",
+   "Size the moment of curiosity to solve douts; for if you let it pass, the desire may never return and you may remain in ingnorance.",
+   "Successful people make money, it's not that people who make money become successful but they actually bring success to what they do.",
 ]
 
 let button = document.getElementById('fortuneButton');
